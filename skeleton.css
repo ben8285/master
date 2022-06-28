@@ -13,6 +13,26 @@
 /* Ben added
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  margin: auto;
+  max-width: 900px;
+}
+
+.content-wrap-all {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footerBen {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;            /* Footer height */
+  z-index: 1;
+}
+
+
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -40,14 +60,12 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 1rem;
   padding: 0 20px;
 }
 
 
 
 .collapsibleSection, .collapsibleLogistics {
-  font-size: 1.1rem;
   background-color: #777;
   padding-left: 1em;
 }
@@ -55,14 +73,12 @@
 
 
 .collapsible {
-  font-size: 1rem;
   background-color: #777;
   padding-left: 2em;
 }
 
 .collapsibleNested1 {
   background-color: #666;
-  font-size: 0.9rem;
   padding-left: 4em;
 }
 
@@ -302,6 +318,7 @@ body {
    font-family: "Roboto Slab", "Arvo", "Times New Roman", serif; 
   */
   font-family: 'Crimson Text', 'Times New Roman', 'Arvo', 'Roboto Slab',  serif; 
+
  
   color: #222; }
 
@@ -375,7 +392,9 @@ h7 { font-size: 0.8rem; line-height: 2;  letter-spacing: 0; }
 
 p {
   margin-top: 0; 
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  font-size: 12; 
+}
 
 
 /* Links
