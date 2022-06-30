@@ -10,23 +10,34 @@
 
 
 
-/* Ben added
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Ben added  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+
+
+
 
 .page-container {
   position: relative;
   min-height: 100vh;
-  margin: auto;
+  box-sizing: border-box; 
   max-width: 900px;
 }
 
 .content-wrap-all {
   padding-bottom: 2.5rem;    /* Footer height */
+  margin: auto;
 }
 
 .footerBen {
   position: absolute;
-  bottom: 0;
+  bottom: 2.5rem;
   height: 2.5rem;            /* Footer height */
   z-index: 1;
 }
@@ -60,7 +71,7 @@
   border: none;
   text-align: left;
   outline: none;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 
@@ -415,13 +426,16 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
+  /*height: 38px; */
+  height: 20px;
+  /*padding: 0 30px; */
   padding: 0 30px;
   color: #555;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
-  line-height: 38px;
+  /*line-height: 38px; */
+  line-height: 20px;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
