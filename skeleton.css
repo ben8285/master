@@ -13,27 +13,27 @@
 /* Ben added  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
-
-
-
-
-
-
-
-
-
-
 .page-container {
   position: relative;
   min-height: 100vh;
   box-sizing: border-box; 
   max-width: 900px;
+  margin: auto;
 }
 
 .content-wrap-all {
   padding-bottom: 2.5rem;    /* Footer height */
   margin: auto;
 }
+
+/* @media (min-width: 1200px) { */
+@media only screen and (hover: none) and (pointer: coarse){
+  .content-wrap-all {
+    width: 85%;
+    padding: 0; }
+}
+
+
 
 .footerBen {
   position: absolute;
@@ -154,6 +154,24 @@
   border-color: black;
   border-style: solid;
   border-width: thin;
+}
+
+
+
+
+@media (max-width: 500px) {
+.collapsibleSection, .collapsible, .collapsibleNested1, .collapsibleLogistics {
+      font-size: 2.0rem;
+   }
+}
+
+/* @media (max-width: 1000px) {*/
+@media only screen and (hover: none) and (pointer: coarse){
+   .collapsibleSection, .collapsible, .collapsibleNested1, .collapsibleLogistics {
+      font-size: 2.5rem;
+      padding-top: 1.1em;
+      padding-bottom: 1.6em;
+   }
 }
 
 
