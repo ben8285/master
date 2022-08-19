@@ -13,10 +13,15 @@
 /* Ben added  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
 .container-search{
     width: 70%;
-    min-height: 10vh;
-    padding: 5%;
+/*     min-height: 15vh; */
+    padding: 0%;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,12 +44,12 @@
     outline: none;
     padding: 24px 20px;
     font-size: 20px;
-    color: #cac7ff;
+    color: #00008B;
 }
 
 ::placeholder{
 /* color: #00008B; */
-    color: #00008B;
+    color: #cac7ff;
 }
 
 
