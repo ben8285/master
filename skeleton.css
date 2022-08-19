@@ -43,6 +43,7 @@
 }
 
 ::placeholder{
+/* color: #00008B; */
     color: #00008B;
 }
 
@@ -52,10 +53,10 @@
 }
 .search-bar button{
     border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #58629b;
+    border-radius: 500%;
+    height: 30px;
+    padding: 0px 20px;
+    background: #C0C0C0;
     cursor: pointer;
 }
 
